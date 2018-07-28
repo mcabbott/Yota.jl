@@ -2,6 +2,8 @@ import Base: *, /, +, -, ^, sin, cos, exp, log, abs, abs2, sign, tanh, sqrt
 import Base: sum, squeeze, transpose, minimum, maximum, getindex, reshape
 import LinearAlgebra: mul!
 import Statistics: mean
+using Espresso
+
 
 include("fwddecl.jl")
 include("utils.jl")
